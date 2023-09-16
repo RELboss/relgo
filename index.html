@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,6 +38,13 @@
     .app-card h3 {
       margin-top: 10px;
     }
+    
+    @media (max-width: 768px) {
+      /* Adjust layout for mobile devices */
+      .app-list {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -71,4 +77,4 @@
     <!-- Add more app cards as needed -->
   </div>
 </body>
-</html>
+</html> 
